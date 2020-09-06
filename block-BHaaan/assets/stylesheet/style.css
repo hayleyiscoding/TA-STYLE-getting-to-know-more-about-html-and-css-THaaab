@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+header div {
+    text-align: center;
+}
+header {
+    background-color: #C786C7;
+    padding: 20px;
+}
+header a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+h4 {
+    color: blue;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+img {
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+h5 {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+section a {
+    text-decoration: none;
+}
+footer div {
+    background-color: rgb(144,144,231);
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: 300;
+}
